@@ -1,0 +1,25 @@
+# Core LangChain e LangGraph
+langchain>=0.1.0
+langchain-openai>=0.2,<1.0
+langgraph>=0.6,<1.0
+langchain-core>=0.3,<1.0
+
+# Processamento de PDFs
+PyPDF2>=3.0.0
+
+# Azure Services
+azure-search-documents>=11.4.0
+azure-core>=1.29.0
+azure-identity>=1.15.0
+
+# Streamlit (se usar interface web)
+streamlit>=1.29
+
+# Utilitários
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Opcional: Para desenvolvimento e testes
+pytest>=7.4.0
+black>=23.0.0
+mypy>=1.5.0
